@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    background-color: #1F2937;
+    color: #F5F9F8;
+}
+
+#logo {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#nav ul {
+    display: flex;
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 5px;
+    list-style: none;
+}
+
+#nav li {
+    margin-left: 20px;
+}
